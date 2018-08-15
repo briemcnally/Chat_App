@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: usernames
+#
+#  id         :bigint(8)        not null, primary key
+#  f_name     :string
+#  l_name     :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  f_name: MyString
+  l_name: MyString
+
+two:
+  f_name: MyString
+  l_name: MyString
